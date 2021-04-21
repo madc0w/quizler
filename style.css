@@ -1,0 +1,148 @@
+body {
+	background-color: #d0f0f0;
+	font-family: Arial;
+}
+
+#title {
+	font-size: 32px;
+	font-family: serif;
+	text-align: center;
+	color: #0080f0;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#subtitle {
+	font-size: 14px;
+	text-align: center;
+	color: black;
+}
+
+#intro {
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+
+#quizName {
+	padding-right: 50px;
+}
+
+#start {
+	text-align: center;
+	margin-top: 40px;
+}
+
+#startButton {
+	width: 600px;
+	height: 80px;
+	background-color: #80f0d0;
+	color: #000060;
+	font-size: 25px;
+}
+
+#main {
+	display: none;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#score {
+	margin-left: 35%;
+	margin-right: 35%;
+	width: 30%;
+	margin-top: 40px;
+	border: 4px;
+	background-color: #f0f0f0;
+	border-color: black;
+	border-style: double;
+	padding: 15px;
+}
+
+#score th {
+	padding-right: 20px;
+}
+
+#question {
+	font-size: 32px;
+}
+
+#answerText {
+	font-size: 32px;
+}	
+
+#questionDiv {
+	width: 40%;
+	margin-left: 30%;
+	padding: 15px;
+	border: 4px;
+	background-color: #f0f0f0;
+	border-color: black;
+	border-style: double;
+}
+
+#submitButton {
+	margin-top: 10px;
+	background-color: #80f0d0;
+	color: #000060;
+	font-size: 18px;
+}
+
+#feedback {
+	padding: 10px;
+	margin-top: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.finished {
+	background-color: white;
+}
+
+.correctAnswer {
+	background-color: #20ff20;
+	border: 5px ridge;
+	border-color: black;
+	border-style: solid;
+	width: 200px;
+}
+
+.wrongAnswer {
+	background-color: red;
+	border: 5px ridge;
+	border-color: black;
+	border-style: solid;
+	width: 200px;
+}
+
+.flash {
+	background-color: white;
+	height: 35px;
+	width: 200px;
+}
+
+th {
+	text-align: right;
+}
+
+#quizList {
+	text-align: center;
+	list-style-type: none;
+}
+
+#quizList li {
+	margin-bottom: 10px;
+}
+
+#byline {
+	font-size: 10px;
+}
+
+#perfectScoreDiv {
+	font-weight: bold;
+	font-style: italic;
+	font-variant: small-caps;
+	font-stretch: expanded;
+	font-size: 30px;
+	display: none;
+}

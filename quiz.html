@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Quizler</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script type="text/javascript" src="quizzer.js"></script>
+</head>
+<body onLoad="onLoad();">
+	<div id="header">
+		<div id="title">Q U I Z L E R</div>
+		<div id="subtitle">Answer each question as quickly as you can!</div>
+		<hr />
+		<div id="intro">
+			<span id="quizName"></span><span id="numQuestions"></span> questions
+		</div>
+	</div>
+
+	<div id="start">
+		<input id="startButton" type="button" value="Click here when you're ready to start the quiz!" onClick="start();" />
+	</div>
+
+	<div id="main">
+		<div id="questionDiv">
+			<span id="question"></span> <span id="answer"> <input id="answerText" type="text" size="6" onKeyPress="keyPress(event);" /> <br /> <input
+				id="submitButton" type="button" value="OK (or press Enter)" onClick="submitAnswer();" /> </span>
+		</div>
+		<center>
+			<div id="feedback"></div>
+		</center>
+		<div id="score">
+			<table>
+				<tr>
+					<th>Correct Answers</th>
+					<td id="numCorrect">0</td>
+				</tr>
+				<tr>
+					<th>Wrong Answers</th>
+					<td id="numWrong">0</td>
+				</tr>
+				<tr>
+					<th>Score</th>
+					<td id="scorePercent">none</td>
+				</tr>
+				<tr id="totalTimeRow">
+					<th>Total Time</th>
+					<td id="timer"></td>
+				</tr>
+				<tr id="meanTimeRow">
+					<th>Average Time per Question</th>
+					<td id="meanTime">0</td>
+				</tr>
+				<tr>
+				<th>Show Times</th>
+				<td><input id="toggleTimesCheckbox" type="checkbox" onChange="toggleTimes(this);"/></td>
+				</tr>
+			</table>
+		</div>
+		<div id="perfectScoreDiv">
+			<p>Perfect Score!!!</p>
+			<img src="Colorful_kaleidoscope.gif" />
+		</div>
+	</div>
+</body>
+</html>
+
